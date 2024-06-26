@@ -11,7 +11,14 @@ public class number6 {
         //tính số tổng biển số xe
         int sum = n % 10; // chia lấy dư
         n = n/10;
-
+        sum += n % 10;
+        n = n/10;
+        sum += n % 10;
+        n = n/10;
+        sum += n % 10;
+        n = n/10;
+        sum += n;
+        System.out.println("Tổng biển số của bạn là: " + sum);
 
     }
 }

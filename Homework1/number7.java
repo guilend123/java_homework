@@ -2,7 +2,7 @@ package java_ss1.Homework1;
 
 public class number7 {
     public static void main(String[] args) {
-        // a
+    /*    // a
         int i = 1, j= 1;
         int a = i++ + j++;//i = 2 j = 2
         //1 + 1 = 2
@@ -59,5 +59,7 @@ public class number7 {
         a += a++ + ++a;//a=12
         //10 + 10 + 12 =32
         System.out.println("a= " +a);//32
+    */
     }
+
 }
