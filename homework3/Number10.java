@@ -5,22 +5,12 @@ import java.util.Scanner;
 public class Number10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Nhập n");
+        System.out.print("Nhâp n");
         int n = scanner.nextInt();
         double sum = 0.0;
-        int fac = 1;
         for (int i = 1; i <= n; i++) {
-            int z = 2 * i - 1;
-            for (int j = 1; j <= z; j++) {
-                if (j == z) {
-                    sum += 1.0 / (fac * z);
-                    fac = 1;
-                } else {
-                    fac *= j;
-                }
-            }
-
+            sum += 1.0/i;
         }
-        System.out.println("Tổng là: " + sum);
+        System.out.println("Tổng S = " + sum);
     }
 }

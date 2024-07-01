@@ -5,13 +5,20 @@ import java.util.Scanner;
 public class Number9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhâp n");
+        System.out.print("Nhâp n: ");
         int n = scanner.nextInt();
-        double sum = 0.0;
-        for (int i = 1; i <= n; i++) {
-            sum += 1.0/i;
+        int distance = 2;
+        int count = 1;
+        int a = 1;
+        while (a <= n) {
+            System.out.print(a + "  ");
+            a = 2 * a + 1;
+            count++;
+            if (distance == count){
+                System.out.println(-a + "  ");
+                count=1;
+            }
         }
-        System.out.println("Tổng S = " + sum);
     }
 }
 
