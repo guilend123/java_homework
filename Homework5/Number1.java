@@ -1,6 +1,6 @@
 package java_ss1.Homework5;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 public class Number1 {
